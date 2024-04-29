@@ -7,15 +7,29 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		963547F72BDE91420055EB4C /* MainTableViewDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 963547F62BDE91420055EB4C /* MainTableViewDataSource.swift */; };
+		963548022BDE948B0055EB4C /* PhotoModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 963548012BDE948B0055EB4C /* PhotoModel.swift */; };
+		963548042BDE98390055EB4C /* PhotoListModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 963548032BDE98390055EB4C /* PhotoListModel.swift */; };
+		963548072BDEA5450055EB4C /* APIFetchHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 963548062BDEA5450055EB4C /* APIFetchHandler.swift */; };
+		9635480D2BDEC8380055EB4C /* MainTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9635480C2BDEC8380055EB4C /* MainTableViewCell.xib */; };
+		9635480E2BDEC8380055EB4C /* MainTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9635480B2BDEC8380055EB4C /* MainTableViewCell.swift */; };
 		96E761572BDE8D940037E20C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96E761562BDE8D940037E20C /* AppDelegate.swift */; };
 		96E761592BDE8D940037E20C /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96E761582BDE8D940037E20C /* SceneDelegate.swift */; };
 		96E7615B2BDE8D940037E20C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96E7615A2BDE8D940037E20C /* ViewController.swift */; };
 		96E7615E2BDE8D950037E20C /* Base in Resources */ = {isa = PBXBuildFile; fileRef = 96E7615D2BDE8D950037E20C /* Base */; };
 		96E761602BDE8D960037E20C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 96E7615F2BDE8D960037E20C /* Assets.xcassets */; };
 		96E761632BDE8D960037E20C /* Base in Resources */ = {isa = PBXBuildFile; fileRef = 96E761622BDE8D960037E20C /* Base */; };
+		D896CA5DAFD7BB76923C4045 /* Pods_Balina_Test.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 32C98E3A6FFE192E63786A73 /* Pods_Balina_Test.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		32C98E3A6FFE192E63786A73 /* Pods_Balina_Test.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Balina_Test.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		963547F62BDE91420055EB4C /* MainTableViewDataSource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTableViewDataSource.swift; sourceTree = "<group>"; };
+		963548012BDE948B0055EB4C /* PhotoModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoModel.swift; sourceTree = "<group>"; };
+		963548032BDE98390055EB4C /* PhotoListModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoListModel.swift; sourceTree = "<group>"; };
+		963548062BDEA5450055EB4C /* APIFetchHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIFetchHandler.swift; sourceTree = "<group>"; };
+		9635480B2BDEC8380055EB4C /* MainTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTableViewCell.swift; sourceTree = "<group>"; };
+		9635480C2BDEC8380055EB4C /* MainTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MainTableViewCell.xib; sourceTree = "<group>"; };
 		96E761532BDE8D940037E20C /* Balina Test.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Balina Test.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		96E761562BDE8D940037E20C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		96E761582BDE8D940037E20C /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -24,6 +38,8 @@
 		96E7615F2BDE8D960037E20C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		96E761622BDE8D960037E20C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		96E761642BDE8D960037E20C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C4A819C872B1E1837DF11120 /* Pods-Balina Test.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Balina Test.release.xcconfig"; path = "Target Support Files/Pods-Balina Test/Pods-Balina Test.release.xcconfig"; sourceTree = "<group>"; };
+		F592600458532A1D2E7633C8 /* Pods-Balina Test.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Balina Test.debug.xcconfig"; path = "Target Support Files/Pods-Balina Test/Pods-Balina Test.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +47,72 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D896CA5DAFD7BB76923C4045 /* Pods_Balina_Test.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		963547FC2BDE93C40055EB4C /* MainTableViewCell */ = {
+			isa = PBXGroup;
+			children = (
+				9635480B2BDEC8380055EB4C /* MainTableViewCell.swift */,
+				9635480C2BDEC8380055EB4C /* MainTableViewCell.xib */,
+			);
+			path = MainTableViewCell;
+			sourceTree = "<group>";
+		};
+		963547FD2BDE94020055EB4C /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				96E7615A2BDE8D940037E20C /* ViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		963547FE2BDE940D0055EB4C /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				96E7615C2BDE8D950037E20C /* Main.storyboard */,
+				96E761612BDE8D960037E20C /* LaunchScreen.storyboard */,
+				963547FC2BDE93C40055EB4C /* MainTableViewCell */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		963547FF2BDE94350055EB4C /* DataSources */ = {
+			isa = PBXGroup;
+			children = (
+				963547F62BDE91420055EB4C /* MainTableViewDataSource.swift */,
+			);
+			path = DataSources;
+			sourceTree = "<group>";
+		};
+		963548002BDE94490055EB4C /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				963548012BDE948B0055EB4C /* PhotoModel.swift */,
+				963548032BDE98390055EB4C /* PhotoListModel.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		963548052BDEA53A0055EB4C /* Manager */ = {
+			isa = PBXGroup;
+			children = (
+				963548062BDEA5450055EB4C /* APIFetchHandler.swift */,
+			);
+			path = Manager;
+			sourceTree = "<group>";
+		};
 		96E7614A2BDE8D940037E20C = {
 			isa = PBXGroup;
 			children = (
 				96E761552BDE8D940037E20C /* Balina Test */,
 				96E761542BDE8D940037E20C /* Products */,
+				C38031D9AE4577FD2160C991 /* Pods */,
+				9EBA19607A751BA996D8583A /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,15 +127,34 @@
 		96E761552BDE8D940037E20C /* Balina Test */ = {
 			isa = PBXGroup;
 			children = (
+				963548052BDEA53A0055EB4C /* Manager */,
+				963548002BDE94490055EB4C /* Models */,
 				96E761562BDE8D940037E20C /* AppDelegate.swift */,
 				96E761582BDE8D940037E20C /* SceneDelegate.swift */,
-				96E7615A2BDE8D940037E20C /* ViewController.swift */,
-				96E7615C2BDE8D950037E20C /* Main.storyboard */,
+				963547FD2BDE94020055EB4C /* Controllers */,
+				963547FE2BDE940D0055EB4C /* Views */,
+				963547FF2BDE94350055EB4C /* DataSources */,
 				96E7615F2BDE8D960037E20C /* Assets.xcassets */,
-				96E761612BDE8D960037E20C /* LaunchScreen.storyboard */,
 				96E761642BDE8D960037E20C /* Info.plist */,
 			);
 			path = "Balina Test";
+			sourceTree = "<group>";
+		};
+		9EBA19607A751BA996D8583A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				32C98E3A6FFE192E63786A73 /* Pods_Balina_Test.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C38031D9AE4577FD2160C991 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				F592600458532A1D2E7633C8 /* Pods-Balina Test.debug.xcconfig */,
+				C4A819C872B1E1837DF11120 /* Pods-Balina Test.release.xcconfig */,
+			);
+			path = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,9 +164,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 96E761672BDE8D960037E20C /* Build configuration list for PBXNativeTarget "Balina Test" */;
 			buildPhases = (
+				3CDFDFD06F818DA844A3E2EC /* [CP] Check Pods Manifest.lock */,
 				96E7614F2BDE8D940037E20C /* Sources */,
 				96E761502BDE8D940037E20C /* Frameworks */,
 				96E761512BDE8D940037E20C /* Resources */,
+				A02EBB2B12427FD5AA50CD14 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -127,20 +219,68 @@
 			files = (
 				96E761602BDE8D960037E20C /* Assets.xcassets in Resources */,
 				96E761632BDE8D960037E20C /* Base in Resources */,
+				9635480D2BDEC8380055EB4C /* MainTableViewCell.xib in Resources */,
 				96E7615E2BDE8D950037E20C /* Base in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		3CDFDFD06F818DA844A3E2EC /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Balina Test-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A02EBB2B12427FD5AA50CD14 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Balina Test/Pods-Balina Test-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Balina Test/Pods-Balina Test-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Balina Test/Pods-Balina Test-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		96E7614F2BDE8D940037E20C /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				963548042BDE98390055EB4C /* PhotoListModel.swift in Sources */,
+				963548022BDE948B0055EB4C /* PhotoModel.swift in Sources */,
+				9635480E2BDEC8380055EB4C /* MainTableViewCell.swift in Sources */,
+				963548072BDEA5450055EB4C /* APIFetchHandler.swift in Sources */,
 				96E7615B2BDE8D940037E20C /* ViewController.swift in Sources */,
 				96E761572BDE8D940037E20C /* AppDelegate.swift in Sources */,
 				96E761592BDE8D940037E20C /* SceneDelegate.swift in Sources */,
+				963547F72BDE91420055EB4C /* MainTableViewDataSource.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -203,7 +343,7 @@
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
-				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				GCC_C_LANGUAGE_STANDARD = gnu17;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_NO_COMMON_BLOCKS = YES;
@@ -218,7 +358,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
@@ -266,7 +406,7 @@
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				GCC_C_LANGUAGE_STANDARD = gnu17;
 				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
@@ -275,7 +415,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
@@ -287,6 +427,7 @@
 		};
 		96E761682BDE8D960037E20C /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F592600458532A1D2E7633C8 /* Pods-Balina Test.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -295,17 +436,19 @@
 				DEVELOPMENT_TEAM = GDZL4G7BLZ;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "Balina Test/Info.plist";
+				INFOPLIST_KEY_NSCameraUsageDescription = whatever;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "site.gleb.Balina-Test";
+				PRODUCT_BUNDLE_IDENTIFIER = site.gleb.balinatest;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -315,6 +458,7 @@
 		};
 		96E761692BDE8D960037E20C /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C4A819C872B1E1837DF11120 /* Pods-Balina Test.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -323,17 +467,19 @@
 				DEVELOPMENT_TEAM = GDZL4G7BLZ;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "Balina Test/Info.plist";
+				INFOPLIST_KEY_NSCameraUsageDescription = whatever;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "site.gleb.Balina-Test";
+				PRODUCT_BUNDLE_IDENTIFIER = site.gleb.balinatest;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
